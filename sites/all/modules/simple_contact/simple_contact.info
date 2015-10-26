@@ -1,0 +1,5 @@
+name = Simple Contact
+description = Removes subject and send a copy from contact page.
+package = Support Modules
+core = 7.x
+files[] = simple_contact.module

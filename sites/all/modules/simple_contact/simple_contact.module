@@ -1,0 +1,10 @@
+<?php
+function simple_contact_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'contact_site_form') {
+    // print '<pre>';
+    // print_r($form);
+    // print '</pre>';
+    $form['copy']['#access'] = 0;
+    $form['subject'] = array();
+  };
+}
